@@ -1,6 +1,5 @@
 package org.parser.reader;
 
-import lombok.extern.java.Log;
 import org.parser.model.Transfer;
 
 import java.io.IOException;
@@ -9,10 +8,8 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.Level;
 import java.util.stream.Collectors;
 
-@Log
 public class TransferReader {
 
     private static final String REGEX = "@";
